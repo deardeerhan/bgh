@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Day2 {
+	public static void main(String[] arge){
+		int a=5;int count=0;
+		while(a!=0){
+			a=a&(a-1);
+			count++;
+			
+		}
+		System.out.print(count);
+	}
+}
